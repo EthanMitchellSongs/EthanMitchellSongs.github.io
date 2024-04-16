@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+    <a href="#PROJECTS" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Projects</a>
+    <a href="#teaching" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Teaching</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#teaching" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">teaching</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="/Pics/DSCF1032 Curtis Perry.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Live at Arthouse Cafe</h3>
+      <p><b>(photo by <a href="https://www.curtisperry.ca/about">Curtis Perry</a>)</b></p> <!-- add link here -->
+    </div>
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+    <h2 class="w3-wide">THE STORY SO FAR</h2>
+    <p class="w3-justify">Ethan is an Ottawa based songwriter, singer, and guitarist. He writes folk and country songs which draw heavily on Appalachian and Western traditions.<br><br>
+
+        From his humble beginnings as a classically trained cellist, he has ventured into the Wild Wild West of folk and country music.
+        He has a deep curiousity for all things music, and draws upon diverse influences from Hank Williams to Jeff Buckley to Tom Waits and back. 
+        He has a vested interest in adapting traditional musical taste to modern songs, and is a keen study of Bluegrass, Folk, and Country from decades as early as the 1920's, 
+        and enjoys many modern artists who are revitalizing traditional styles, such as Nick Shoulders and Colter Wall. <br><br>
+        
+        His songs range from tender love songs, toe tapping shuffles, and Country crooner power ballads, sung in a rich, timeless baritone and by flashy bluegrass runs and intricate fingerpicking guitar.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-half">
+        <img src="/Pics/DSCF1039 Curtis Perry.jpg" class="w3-round w3-margin-bottom" alt="Ethan Mitchell at Arthouse Cafe. Photo by Curtis Perry" style="width:60%">
+      </div>
+      <div class="w3-half">
+        <img src="/Pics/DSCF1060 Curtis Perry.jpg" class="w3-round" alt="Nyx and Lightsmith at Arthouse Cafe. Photo by Curtis Perry" style="width:60%">
+      </div>
+    </div>
+    <div class="w3-container w3-content w3-center" id="PROJECTS">
+      <h2>PROJECTS</h2>
+      <p>In addition to his work as a solo artist, Ethan frequently collaborates with his friends in Ottawa and beyond</p>
+      <p class="w3-justify"><a href="https://www.nyxandlightsmith.com/" class="w3-hover-opacity"><b>Nyx and Lightsmith</b></a> is Ethan's main project with his partner Maddy O'regan. Nyx and Lightsmith is a guitar and fiddle folk duo whose songs emphasize the shared human experience, 
+        reminding listeners that amidst life's challenges, no one is truly alone. Their debut EP, similes will be available in Fall 2024.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/EV4yiZvTt8E?si=pTN4YNACKsJv8tUj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p class="w3-justify"><a href="https://oddeline.com/home" class="w3-hover-opacity"><b>Oddeline</b></a> is a folksinger, songwriter, community organizer and producer from Ottawa, Ontario. She writes music 
+        heavily influenced by 60s jazz-folk like Nick Drake and Fairport Convention, with a DIY attitude rooted in a love of early indie bands. As of 2024, Ethan joined her live show line up as lead
+        guitarist.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qO0WISrG3fc?si=rrJ0vy5T0k0b_vGG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p class="w3-justify"><b>The Record Store Bargain Bin</b> is Ethan's newest project, a full country band featuring Nik Field on lap steel, Brianna Herdman on Bass, and Matt Troncale on dums.
+      They play country music rootes in the traditional sounds of the 50's and 60's, from toe tapping shuffles to country crooner power ballads.</p>
+      <p class="w3-justify"><b>String Arrangements</b> Ethan has worked with artists from all over Ontario including Moonfruits, Oddeline, Corbin Hawkins, Kate Greenland, and Annie Martel
+      to write and develop string accompaniment for their original songs. He performs and records these arrangement on cello, with his partner Maddy on violin.</p>
+    </div>
+    <div>
+      <img src="/Pics/DSCF9157 Curtis Perry.jpg" class="w3-container w3-content w3-padding-64 w3-wide w3-black" alt="Ethan Mitchell and a 1943 Epiphone Olympic. Photo by Curtis Perry" style="width:100%">
+    </div>
+    <div class="w3-container w3-content w3-center" id="teaching">
+      <h2>Teaching</h2>
+      <p class="w3-justify">In addition to his work as a performer and songwriter, Ethan is a passionate and charismatic teacher. He offers lessons in cello, guitar, piano, music theory, and songwriting
+        in the heart of downtown Ottawa. With over a decade of experience, he's taught students of all levels and ages. He leverages technical and theoretical knowledge gained from his classical training
+        with a love of the creativity and freedom of the folk tradition to make music accessible and fun. If you're interested in lessons, 
+        <a href="#contact" class="w3-hover-opacity">get in touch!</a>
+      </p>
+      <div>
+        <img src="/Pics/DSCF1078 Curtis Perry.jpg" class="w3-round w3-margin-bottom" alt="Nyx and Lightsmith live at Arthouse Cafe. Photo by Curtis Perry" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64 w3-black" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Ottawa, ON<br>
+        <i class="fa fa-phone" style="width:30px"></i> email:<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> ethanmitchellsongs (at) gmail (dot) com <br>
+      </div>
+      <!--
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+-->
+<!-- End Page Content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <a href="https://www.tutorialspoint.com/html/html_comments.html"> <i class="fa fa-youtube-official w3-hover-opacity"></i></a>
+  <a href="instagram.com/ethanmitchellsongs"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+  <p class="w3-medium">All photos by <a href="https://www.curtisperry.ca/about">Curtis Perry</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>

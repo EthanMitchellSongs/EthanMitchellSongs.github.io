@@ -4,7 +4,7 @@
 <title>Ethan Mitchell Songs</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -21,12 +21,12 @@ iframe {
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="/" class="w3-bar-item w3-button w3-padding-large">Ethan Mitchell</a>
     <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
-    <a href="#PROJECTS" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Projects</a>
+    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Projects</a>
     <a href="#teaching" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Teaching</a>
     <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Contact</a>
-    <div class="w3-dropdown-hover w3-hide-small">
+    <div class="w3-dropdown-hover w3-hide">
       <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
       <div class="w3-dropdown-content w3-bar-block w3-card-4">
         <a href="#" class="w3-bar-item w3-button">Merchandise</a>
@@ -40,10 +40,10 @@ iframe {
 
 <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-  <a href="#teaching" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">teaching</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+  <a href="#projects" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Projects</a>
+  <a href="#teaching" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Teaching</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
 </div>
 
 <!-- Page content -->
@@ -59,7 +59,7 @@ iframe {
   </div>
 
   <!-- The Band Section -->
-  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+  <div class="w3-container w3-content w3-center w3-padding-64 site-section" style="max-width:800px" id="about">
     <h2 class="w3-wide">THE STORY SO FAR</h2>
     <p class="w3-justify">Ethan is an Ottawa based songwriter, singer, and guitarist. He writes folk and country songs which draw heavily on Appalachian and Western traditions.<br><br>
 
@@ -77,7 +77,7 @@ iframe {
         <img src="/Pics/DSCF1060 Curtis Perry.jpg" class="w3-round" alt="Nyx and Lightsmith at Arthouse Cafe. Photo by Curtis Perry" style="width:60%">
       </div>
     </div>
-    <div class="w3-container w3-content w3-center" id="PROJECTS">
+    <div class="w3-container w3-content w3-center site-section" id="projects">
       <h2>PROJECTS</h2>
       <p>In addition to his work as a solo artist, Ethan frequently collaborates with his friends in Ottawa and beyond</p>
       <p class="w3-justify"><a href="https://www.nyxandlightsmith.com/" class="w3-hover-opacity"><b>Nyx and Lightsmith</b></a> is Ethan's main project with his partner Maddy O'regan. Nyx and Lightsmith is a guitar and fiddle folk duo whose songs emphasize the shared human experience, 
@@ -95,7 +95,7 @@ iframe {
     <div>
       <img src="/Pics/DSCF9157 Curtis Perry.jpg" class="w3-container w3-content w3-padding-64 w3-wide w3-black" alt="Ethan Mitchell and a 1943 Epiphone Olympic. Photo by Curtis Perry" style="width:100%">
     </div>
-    <div class="w3-container w3-content w3-center" id="teaching">
+    <div class="w3-container w3-content w3-center site-section" id="teaching">
       <h2>Teaching</h2>
       <p class="w3-justify">In addition to his work as a performer and songwriter, Ethan is a passionate and charismatic teacher. He offers lessons in cello, guitar, piano, music theory, and songwriting
         in the heart of downtown Ottawa. With over a decade of experience, he's taught students of all levels and ages. He leverages technical and theoretical knowledge gained from his classical training
@@ -109,7 +109,7 @@ iframe {
   </div>
 
   <!-- The Contact Section -->
-  <div class="w3-container w3-content w3-padding-64 w3-black" id="contact">
+  <div class="w3-container w3-content w3-padding-64 w3-black site-section" id="contact">
     <h2 class="w3-wide w3-center">CONTACT</h2>
     <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
     <div class="w3-row w3-padding-32">

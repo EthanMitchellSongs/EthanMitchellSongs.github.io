@@ -372,6 +372,10 @@ a {
     color: #fff !important
 }
 
+.w3-show {
+    display: block !important
+}
+
 .site-section {
     padding-top: 52px;
 }

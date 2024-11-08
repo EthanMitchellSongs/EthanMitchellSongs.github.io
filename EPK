@@ -62,7 +62,21 @@ iframe {
   </div>
 
   <!-- EPK BEGINS -->
-
+  <div class="w2-container w3-content" id="bio">
+    <h3 class="w3-center">BIO</h3>
+    <h1 class="w3-left">Short Bio</h1>
+    <p class="w3-justify">Ethan Mitchell is a folk musician who calls Ottawa his home. He writes silly little songs to help get things off his chest, and he loves sharing his music with friends, family, and the occasional stranger. He writes about cowboys, Canada, 
+country folk, city folk, lonesome folk, and friendly folk. He gave up the cello to sing and play guitar, setting stories to song and every now and again yodelaying a couple hee-hoos.</p>
+    <h1 class="w3-left">Long Bio</h1>
+    <p class="w3-justify">Ethan is an Ottawa based songwriter, singer, and guitarist. He plays antique and original music inspired by his roots in the Ottawa Valley.<br><br>
+    He has a deep curiousity for all things music, and draws upon diverse influences from Hank Williams to Jeff Buckley to Tom Waits and back. With a vested interest in adapting traditional musical taste to modern songs, Ethan is a keen study of Bluegrass, Folk, 
+and Country from decades as early as the 1920's, and enjoys many modern artists who are revitalizing traditional styles, such as Nick Shoulders and Colter Wall.<br><br>
+    A prolific writer, he’s always looking for a way to turn some pithy observation into a proper folk song. He writes about cowboys, Canada, country folk, city folk, lonesome folk, friendly folk, and anything that rouses his imagination. While his guitar playing is 
+steeped in old-time traditions, his writing is more concerned with the modern age. It’s witty and lyrical, often leaning on a dash of sarcasm to drive a point home.<br><br>
+    Ethan frequently appears on stage as a collaborator, playing lap steel, cello, mandolin - really anything with strings. He’s performed with esteemed Ontario band Moonfruits, as well as appearing on stage at Bluesfest in 2024, playing lead guitar and 
+cello with Oddeline.<br><br>
+    Whether you want a country crooner with an old time voice, flashy flatpicking, or just like the way music used to sound, a show with Ethan Mitchell is a good time all around.<br>
+    </p>
 
   <!-- The Contact Section -->
   <div class="w3-container w3-content w3-padding-64 w3-black site-section" id="contact">

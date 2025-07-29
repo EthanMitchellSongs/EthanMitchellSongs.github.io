@@ -74,7 +74,6 @@ button:-moz-focusring {
 /* End extract */
 html,
 body {
-    font-family: Verdana, sans-serif;
     font-size: 15px;
     line-height: 1.5
 }
@@ -93,7 +92,6 @@ h3 {
 
 h2,
 h3 {
-    font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
     margin: 10px 0
 }
